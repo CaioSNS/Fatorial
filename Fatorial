@@ -1,0 +1,17 @@
+
+public class Fatorial {
+	public static void main(String[] args) {
+		
+		int fatorial = 1;	
+		
+		for (int contador = 1; contador <=10; contador++) {
+			System.out.println("Vamos começar com o Fatorial do numero " + contador);
+			fatorial = fatorial * contador;
+			System.out.println(fatorial);
+		
+			}
+			System.out.println();
+	}
+	
+
+}
